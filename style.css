@@ -1,0 +1,187 @@
+/*rabbi machiner*/
+
+body,
+html {
+  margin: 25px 0px 0px 0px;
+  background: rgb(243, 127, 25);
+ 
+}
+img {
+width:100%;
+height:auto;
+}
+.wrapper {
+  /* border: 4px solid black;*/
+   padding: 15px;
+   width: 85%;
+   transition: all 1.5s ease;
+   margin: 20px auto;
+   /*background-image: url(pothole.jpg);*/
+   /*background-size: cover;*/
+   background: #d3d3d3;
+   border:2px black solid;
+   
+ }
+
+.wrapper:hover {
+  background: rgb(242, 242, 242, 0.8);
+
+
+}
+
+body {
+  height: 100%;
+  font-family: 'Tahoma, Georgia';
+  /*display: none;*/
+  font-size: 16px;
+}
+
+
+.color {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+    background: black;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  
+}
+
+.color:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  border-radius: 20%;
+  /*background: transparent;*/
+  background-image: url(zofgo.jpg);
+  background-size: cover;
+  
+  
+ 
+  /*background: purple;*/
+
+}
+
+h3 {
+  background-color: black;
+  font-family:monospace;
+  color: white;
+  padding: 12px;
+  margin: 8px 0px 3px 0px;
+  border: 1px solid gray;
+}
+.h3b {
+background-color:white;
+color: black;
+}
+
+h3>a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+
+
+}
+
+a:visited {
+  text-decoration: line-through;
+}
+
+
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.column {
+  flex: 1;
+  /*border: 1px solid gray;*/
+  margin: 2px;
+  padding: 10px;
+
+  :first-child {
+    margin-left: 0;
+  }
+
+  :last-child {
+    margin-right: 0;
+  }
+
+}
+.hvr-grow {
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px rgba(0,0,0,0);
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-property:transform;
+  transition-property:transform
+  }
+  
+  .hvr-grow:active,.hvr-grow:focus,.hvr-grow:hover {
+  
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1)
+  
+  }
+  
+  .hvr-shrink {
+  
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px rgba(0,0,0,0);
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-property:transform;
+  transition-property:transform
+  }
+  
+  
+  .hvr-grow-rotate {
+  
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px rgba(0,0,0,0);
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-property:transform;transition-property:transform
+  
+  }
+  
+  .hvr-grow-rotate:active,.hvr-grow-rotate:focus,.hvr-grow-rotate:hover {
+  
+  -webkit-transform:scale(1.1) rotate(4deg);
+  transform:scale(1.1) rotate(4deg)
+  
+  }
+  
+  .hvr-grow-shadow {
+  
+  display:inline-block;vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px rgba(0,0,0,0);
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;-webkit-transition-property:box-shadow,transform;
+  transition-property:box-shadow,transform
+  
+  }
+  
+  .hvr-grow-shadow:active,.hvr-grow-shadow:focus,.hvr-grow-shadow:hover {
+  
+  box-shadow:0 10px 10px -10px rgba(0,0,0,.5);
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1)
+  
+  }
+
+
